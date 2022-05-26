@@ -1,27 +1,7 @@
-%
-% File hicss.tex
-%
-% Contact: Holm Smidt, hicss@hawaii.edu
-%%
-%%
-%% Based on the style files for ACL 2015 by 
-%% car@ir.hit.edu.cn, gdzhou@suda.edu.cn
-
-
 \documentclass[10pt]{article}
-\input{hicss-packages.tex}
+
 \usepackage{pgfplots}
-\newcommand{\sansserifformat}[1]{\fontfamily{cmss}{ #1}}%
-
-\setlength\titlebox{7cm}
-
-% You can expand the titlebox if you need extra space
-% to show all the authors. Please do not make the titlebox
-% smaller than 5cm (the original size).
-% 5cm is the default for a single row list of authors
-
-
-% title for manuscript without author info
+\newcommand{\sansserifformat}[1]{\fontfamily{cmss}{ #1}}
 
 \title{
   Data Structure: Theoretical Approach\\ Ashraful Alam\\ Noakhali Science and Technology University\\ Information and Communication Engineering 
@@ -127,7 +107,7 @@ Meaning the next equation has no integer solutions:
     xlabel = \(x\),
     ylabel = {\(f(x)\)},
 ]
-%Below the red parabola is defined
+
 \addplot [
     domain=-10:10, 
     samples=100, 
